@@ -1,0 +1,23 @@
+{
+  "test_case/test_case.py::Test::test__1": true,
+  "test_case/test_case.py::Test::test__2": true,
+  "test_case/test_case.py::Test::test__3": true,
+  "test_case/test_case.py::Test::test__4": true,
+  "testcase/test_case.py::Test::test_run": true,
+  "testcase/test_case.py::Test::test_run[api_data0]": true,
+  "testcase/test_case.py::Test::test_run[api_data1]": true,
+  "testcase/test_case.py::Test::test_run[api_data2]": true,
+  "testcase/test_case.py::Test::test_run[api_data3]": true,
+  "testcase/test_case.py::Test::test_run[api_data4]": true,
+  "testcase/test_case.py::Test::test_run[api_data5]": true,
+  "testcase/test_case.py::Test::test_run[api_data6]": true,
+  "testcase/test_case.py::Test::test_run[api_data7]": true,
+  "testcase/test_case.py::TestSzxy::test_run[api_data0]": true,
+  "testcase/test_case.py::TestSzxy::test_run[api_data1]": true,
+  "testcase/test_case.py::TestSzxy::test_run[api_data2]": true,
+  "testcase/test_case.py::TestSzxy::test_run[api_data3]": true,
+  "testcase/test_case.py::TestSzxy::test_run[api_data4]": true,
+  "testcase/test_case.py::TestSzxy::test_run[api_data5]": true,
+  "testcase/test_case.py::TestSzxy::test_run[api_data6]": true,
+  "testcase/test_case.py::TestSzxy::test_run[api_data7]": true
+}
