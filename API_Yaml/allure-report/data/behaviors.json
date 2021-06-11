@@ -4,114 +4,225 @@
   "children" : [ {
     "name" : "数字化校园",
     "children" : [ {
-      "name" : "登陆及学生模块",
+      "name" : "登陆模块",
       "children" : [ {
         "name" : "获取access_token",
-        "uid" : "193b7091dad9c0f7",
-        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
-        "status" : "passed",
+        "uid" : "dc5b316fdf8f571b",
+        "parentUid" : "8fd6ebf856d8aefd39e3342d0af1720f",
+        "status" : "broken",
         "time" : {
-          "start" : 1614328519614,
-          "stop" : 1614328519698,
-          "duration" : 84
+          "start" : 1618816098144,
+          "stop" : 1618816120265,
+          "duration" : 22121
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "登陆参数正常-成功",
-        "uid" : "9b9bbf4d0acc0eb1",
-        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
-        "status" : "passed",
+        "uid" : "ef61d863a6ed04bc",
+        "parentUid" : "8fd6ebf856d8aefd39e3342d0af1720f",
+        "status" : "failed",
         "time" : {
-          "start" : 1614328519704,
-          "stop" : 1614328519755,
-          "duration" : 51
+          "start" : 1618816120711,
+          "stop" : 1618816120777,
+          "duration" : 66
         },
-        "flaky" : false,
-        "newFailed" : false,
+        "flaky" : true,
+        "newFailed" : true,
         "parameters" : [ ]
       }, {
         "name" : "登陆参数为空-失败",
-        "uid" : "6c09ee53ac5b82b4",
-        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
-        "status" : "passed",
+        "uid" : "6a16def62164d0a4",
+        "parentUid" : "8fd6ebf856d8aefd39e3342d0af1720f",
+        "status" : "failed",
         "time" : {
-          "start" : 1614328519763,
-          "stop" : 1614328519785,
-          "duration" : 22
+          "start" : 1618816120811,
+          "stop" : 1618816120845,
+          "duration" : 34
         },
-        "flaky" : false,
-        "newFailed" : false,
+        "flaky" : true,
+        "newFailed" : true,
         "parameters" : [ ]
       }, {
         "name" : "登陆参数错误-失败",
-        "uid" : "c19cd01d23f9d9d6",
-        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
-        "status" : "passed",
+        "uid" : "44d57a0ce93953de",
+        "parentUid" : "8fd6ebf856d8aefd39e3342d0af1720f",
+        "status" : "failed",
         "time" : {
-          "start" : 1614328519792,
-          "stop" : 1614328519829,
-          "duration" : 37
+          "start" : 1618816120862,
+          "stop" : 1618816120895,
+          "duration" : 33
         },
-        "flaky" : false,
-        "newFailed" : false,
+        "flaky" : true,
+        "newFailed" : true,
         "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "8fd6ebf856d8aefd39e3342d0af1720f"
+    }, {
+      "name" : "学生模块",
+      "children" : [ {
         "name" : "根据学号获取学生信息",
-        "uid" : "2f66fd89c2cd9881",
-        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
-        "status" : "passed",
+        "uid" : "fed626cec6478404",
+        "parentUid" : "ab2573126e4286272773196b0f9cc6cb",
+        "status" : "failed",
         "time" : {
-          "start" : 1614328519836,
-          "stop" : 1614328519880,
-          "duration" : 44
+          "start" : 1618816120910,
+          "stop" : 1618816120941,
+          "duration" : 31
         },
-        "flaky" : false,
-        "newFailed" : false,
+        "flaky" : true,
+        "newFailed" : true,
         "parameters" : [ ]
       }, {
         "name" : "根据学年学期获取学生信息",
-        "uid" : "fc15a4f2dc635680",
-        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
-        "status" : "passed",
+        "uid" : "5aec863c0891a52d",
+        "parentUid" : "ab2573126e4286272773196b0f9cc6cb",
+        "status" : "failed",
         "time" : {
-          "start" : 1614328519898,
-          "stop" : 1614328519924,
-          "duration" : 26
+          "start" : 1618816120958,
+          "stop" : 1618816120990,
+          "duration" : 32
         },
-        "flaky" : false,
-        "newFailed" : false,
+        "flaky" : true,
+        "newFailed" : true,
         "parameters" : [ ]
       }, {
-        "name" : "根据学校id和学号获取班级",
-        "uid" : "3a1e726ff9e86419",
-        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
-        "status" : "passed",
+        "name" : "获取所有学生或者获取当前学年学期的所有学生",
+        "uid" : "da2c87895557505",
+        "parentUid" : "ab2573126e4286272773196b0f9cc6cb",
+        "status" : "failed",
         "time" : {
-          "start" : 1614328519929,
-          "stop" : 1614328519967,
-          "duration" : 38
+          "start" : 1618816121007,
+          "stop" : 1618816121039,
+          "duration" : 32
         },
-        "flaky" : false,
-        "newFailed" : false,
+        "flaky" : true,
+        "newFailed" : true,
         "parameters" : [ ]
       }, {
         "name" : "根据班级获取学生信息",
-        "uid" : "bbd18cd6242400ba",
-        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
-        "status" : "passed",
+        "uid" : "59e9eb243eefd148",
+        "parentUid" : "ab2573126e4286272773196b0f9cc6cb",
+        "status" : "failed",
         "time" : {
-          "start" : 1614328519971,
-          "stop" : 1614328520037,
-          "duration" : 66
+          "start" : 1618816121057,
+          "stop" : 1618816121092,
+          "duration" : 35
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab2573126e4286272773196b0f9cc6cb"
+    } ],
+    "uid" : "a8a0ec61eae0a2e9c636b06433735c69"
+  }, {
+    "name" : "阅卷系统",
+    "children" : [ {
+      "name" : "登陆模块",
+      "children" : [ {
+        "name" : "登陆首页",
+        "uid" : "10af4a2a107323e1",
+        "parentUid" : "c50a93b53e7d518ddd2645bf081de01c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816121134,
+          "stop" : 1618816142179,
+          "duration" : 21045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "请求登陆",
+        "uid" : "86066bcdfe3ee6e1",
+        "parentUid" : "c50a93b53e7d518ddd2645bf081de01c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816142352,
+          "stop" : 1618816163355,
+          "duration" : 21003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "设置Token",
+        "uid" : "60a79eaa68e052f8",
+        "parentUid" : "c50a93b53e7d518ddd2645bf081de01c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816163514,
+          "stop" : 1618816184514,
+          "duration" : 21000
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cda77db05ce803291ab29993b7ce657c"
+      "uid" : "c50a93b53e7d518ddd2645bf081de01c"
+    }, {
+      "name" : "界面模块",
+      "children" : [ {
+        "name" : "阅卷首页",
+        "uid" : "3db4de0ecb76ffb9",
+        "parentUid" : "5345d475ff6312bd175aa836fb3cc321",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816184684,
+          "stop" : 1618816207799,
+          "duration" : 23115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "任务列表",
+        "uid" : "2b6b569a9b25a40d",
+        "parentUid" : "5345d475ff6312bd175aa836fb3cc321",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816207943,
+          "stop" : 1618816228946,
+          "duration" : 21003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "阅卷界面",
+        "uid" : "70efd2b1a73b931e",
+        "parentUid" : "5345d475ff6312bd175aa836fb3cc321",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816229075,
+          "stop" : 1618816250123,
+          "duration" : 21048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5345d475ff6312bd175aa836fb3cc321"
+    }, {
+      "name" : "评阅模块",
+      "children" : [ {
+        "name" : "获取试卷",
+        "uid" : "d5aba9e7181375b2",
+        "parentUid" : "6671055ae5e2b39f7ff58cff3bb1eb22",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816250284,
+          "stop" : 1618816250285,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6671055ae5e2b39f7ff58cff3bb1eb22"
     } ],
-    "uid" : "a8a0ec61eae0a2e9c636b06433735c69"
+    "uid" : "8300946f27e63104b3916bb64b979ab6"
   } ]
 }

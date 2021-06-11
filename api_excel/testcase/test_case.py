@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
+import pytest
+import json
 from core.readExcel import *
 from core.testBase import *
-import allure
-import pytest
 from core.functions import *
 from db_operate.mysql_operate import MySQLOperate
 from db_operate.redis_operate import RedisOperate
+scale = 156
 
 
 def case_data():
@@ -25,15 +26,10 @@ class TestClass:
         # 实例化测试基类，自带cookie保持
         cls.request = BaseTest()
 
-    @allure.suite('数字化校园')
-    @allure.sub_suite('登陆及学生模块')
-    @allure.feature('数字化校园')
-    @allure.story('登陆及学生模块')
     @pytest.mark.parametrize('api_data', case_data())
-    def test_run(self, api_data):
-        allure.dynamic.title(api_data['descrption'])
-        allure.dynamic.issue(api_data['url'])
-        logger.info("用例描述====>" + api_data['descrption'])
+    def test_case(self, api_data):
+        allure_(api_data)
+        logger.info("用例描述====>" + api_data['descrption']['descrption'])
         db_connect = None
         redis_db_connect = None
         setup_sql = self.global_.build_param(api_data['setup_sql'])
@@ -83,33 +79,33 @@ class TestClass:
         if api_data['saves']:
             # 遍历saves
             for save in api_data['saves'].split(";"):
-                # 切割字符串 如 key=$.data
-                key = save.split("=")[0]
-                jsp = save.split("=")[1]
-                self.global_.save_data(res.json(), key, jsp)
+                if "$." in api_data['saves']:
+                    key = save.split("=")[0]
+                    jsp = save.split("=")[1]
+                    self.global_.save_data(res.json(), key, jsp)
+                else:
+                    key = save.split(",")[0]
+                    jsp = save.split(",")[1]
+                    self.global_.save_data(res, key, jsp)
 
         if api_data['verify']:
             # 遍历verify:
             for ver in api_data['verify'].split(";"):
-                expr = ver.split("=")[0]
                 # 判断Jsonpath还是正则断言
-                if expr.startswith("$."):
+                if "$." in ver:
+                    expr = ver.split("=")[0]
                     actual = jsonpath.jsonpath(res.json(), expr)
                     if not actual:
                         logger.error("该jsonpath未匹配到值,请确认接口响应和jsonpath正确性")
                     actual = actual[0]
+                    expect = ver.split("=")[1]
                 else:
-                    actual = re.findall(expr, res.text)[0]
-                expect = ver.split("=")[1]
+                    actual = re.findall(ver, res.text)[0]
+                    expect = ver
                 self.request.assertEquals(str(actual), expect)
 
-        # 最后关闭mysql数据库连接
-        if db_connect:
-            db_connect.db.close()
-
-    @classmethod
-    def teardownclass(cls):
-        pass
+    # def teardown_class(cls):
+    #     print('test end'.center(scale // 2, "="))
 
 
 if __name__ == '__main__':

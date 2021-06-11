@@ -9,8 +9,7 @@ if __name__ == '__main__':
     import os
 
     pytest.main(['--alluredir', 'allure_report/result'])
-    split1 = 'allure generate allure_report/result -o allure_report/html --clean'
-    os.system(split1)
-    # split2 = 'allure serve ./allure_report/result'
-    # os.system(split2)
+    os.system('allure generate allure_report/result -o allure_report/html --clean')
+    # split = 'allure serve ./allure_report/result'
+    # os.system(split)
 

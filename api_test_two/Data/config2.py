@@ -1,5 +1,5 @@
 import pytest
-from Data.config1 import Abc
+from testdata.config1 import Abc
 
 
 class A:

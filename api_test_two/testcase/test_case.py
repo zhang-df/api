@@ -4,7 +4,7 @@ from Basic.read_yaml import *
 from Basic.testBase import *
 from db_operate.mysql_operate import MySQLOperate
 from db_operate.redis_operate import RedisOperate
-from Data.config1 import Abc
+from testdata.config1 import Abc
 scale = 156
 
 

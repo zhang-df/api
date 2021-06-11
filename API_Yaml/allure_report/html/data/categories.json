@@ -1,5 +1,229 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.21szxy.com', port=80): Max retries exceeded with url: /api/auth/access_token?app_id=client_id&app_secret=client_secret (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000003B8FBE0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "children" : [ {
+        "name" : "获取access_token",
+        "uid" : "fbd8d0244616efa",
+        "parentUid" : "72d3b0256b3849b8fd403c07e74fafb1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816098144,
+          "stop" : 1618816120265,
+          "duration" : 22121
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72d3b0256b3849b8fd403c07e74fafb1"
+    }, {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='yjsso.21cnjy.com', port=80): Max retries exceeded with url: /Account/Login?returnurl=http%253a%252f%252fyjadmin.21cnjy.com%252f%3A10192 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000003FB1D00>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "children" : [ {
+        "name" : "登陆首页",
+        "uid" : "ce98c0ec6b731949",
+        "parentUid" : "4b7eddaff57ccaa480f29e7b6c6ac698",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816121134,
+          "stop" : 1618816142179,
+          "duration" : 21045
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b7eddaff57ccaa480f29e7b6c6ac698"
+    }, {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='yjsso.21cnjy.com', port=80): Max retries exceeded with url: /Account/Login?returnurl=http:%2F%2Fyjadmin.21cnjy.com:10192 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000041EC7C0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "children" : [ {
+        "name" : "请求登陆",
+        "uid" : "987c5ebe3f11c0d1",
+        "parentUid" : "d3ea9d2b78f1c893454377b01fa35ad9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816142352,
+          "stop" : 1618816163355,
+          "duration" : 21003
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3ea9d2b78f1c893454377b01fa35ad9"
+    }, {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='yjsso.21cnjy.com', port=80): Max retries exceeded with url: /Auth/GetToken?returnurl=http%253A%252F%252Fyjadmin.21cnjy.com%3A10192%252F%253FToken%253D%2524Token%2524 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004199FD0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "children" : [ {
+        "name" : "设置Token",
+        "uid" : "77fd61aff3c9b308",
+        "parentUid" : "d1c0e38301b255591e3f7666bdaa4b77",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816163514,
+          "stop" : 1618816184514,
+          "duration" : 21000
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d1c0e38301b255591e3f7666bdaa4b77"
+    }, {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='yjadmin.21cnjy.com', port=10192): Max retries exceeded with url: /Home/TeacherIndex (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000042DFD60>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "children" : [ {
+        "name" : "阅卷首页",
+        "uid" : "2a590b5140de62af",
+        "parentUid" : "64b886c318167a69c8015227130dc2e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816184684,
+          "stop" : 1618816207799,
+          "duration" : 23115
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64b886c318167a69c8015227130dc2e3"
+    }, {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='yjadmin.21cnjy.com', port=10192): Max retries exceeded with url: /ExamOnline/List (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000041A2BE0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "children" : [ {
+        "name" : "任务列表",
+        "uid" : "cbdf8acee6df47bd",
+        "parentUid" : "5805d368e38be838cac11f7b080658e6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816207943,
+          "stop" : 1618816228946,
+          "duration" : 21003
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5805d368e38be838cac11f7b080658e6"
+    }, {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='yjonline.21cnjy.com', port=80): Max retries exceeded with url: /Check/CommonReview?questionGroupId=None%5B0%5D&type=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000462E400>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "children" : [ {
+        "name" : "阅卷界面",
+        "uid" : "f012aafd52d14e34",
+        "parentUid" : "e7dfd03b55c25afda55e127fb4d07541",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816229075,
+          "stop" : 1618816250123,
+          "duration" : 21048
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e7dfd03b55c25afda55e127fb4d07541"
+    }, {
+      "name" : "TypeError: 'NoneType' object is not subscriptable",
+      "children" : [ {
+        "name" : "获取试卷",
+        "uid" : "bd7c8594be5320e",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618816250284,
+          "stop" : 1618816250285,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86a928d47f47009c564bd8e345a40463"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError",
+      "children" : [ {
+        "name" : "登陆参数正常-成功",
+        "uid" : "ed24c191b16d5b1",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618816120711,
+          "stop" : 1618816120777,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登陆参数为空-失败",
+        "uid" : "a98a4e2d3b319efc",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618816120811,
+          "stop" : 1618816120845,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登陆参数错误-失败",
+        "uid" : "fbd88c41e263f07f",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618816120862,
+          "stop" : 1618816120895,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "根据学号获取学生信息",
+        "uid" : "d6466c6cb0e2f35b",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618816120910,
+          "stop" : 1618816120941,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "根据学年学期获取学生信息",
+        "uid" : "6a11fe692d479602",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618816120958,
+          "stop" : 1618816120990,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取所有学生或者获取当前学年学期的所有学生",
+        "uid" : "85618f8c06d4a8d6",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618816121007,
+          "stop" : 1618816121039,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "根据班级获取学生信息",
+        "uid" : "1b69792a8330096f",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618816121057,
+          "stop" : 1618816121092,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0017ad855102fea08b8682d27fec4ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

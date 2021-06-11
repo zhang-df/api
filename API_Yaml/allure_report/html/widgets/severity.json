@@ -1,81 +1,151 @@
 [ {
-  "uid" : "63099c38221536b1",
-  "name" : "登陆参数正常-成功",
-  "time" : {
-    "start" : 1614328519704,
-    "stop" : 1614328519755,
-    "duration" : 51
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15d31d4af30a97b3",
-  "name" : "获取access_token",
-  "time" : {
-    "start" : 1614328519614,
-    "stop" : 1614328519698,
-    "duration" : 84
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c1d3e8f6c0b19797",
-  "name" : "根据学年学期获取学生信息",
-  "time" : {
-    "start" : 1614328519898,
-    "stop" : 1614328519924,
-    "duration" : 26
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e110ef31a4f8268",
+  "uid" : "a98a4e2d3b319efc",
   "name" : "登陆参数为空-失败",
   "time" : {
-    "start" : 1614328519763,
-    "stop" : 1614328519785,
-    "duration" : 22
+    "start" : 1618816120811,
+    "stop" : 1618816120845,
+    "duration" : 34
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "9a7889c73ae28fdd",
-  "name" : "根据班级获取学生信息",
+  "uid" : "2a590b5140de62af",
+  "name" : "阅卷首页",
   "time" : {
-    "start" : 1614328519971,
-    "stop" : 1614328520037,
-    "duration" : 66
+    "start" : 1618816184684,
+    "stop" : 1618816207799,
+    "duration" : 23115
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "37223d20ee83665e",
-  "name" : "根据学校id和学号获取班级",
-  "time" : {
-    "start" : 1614328519929,
-    "stop" : 1614328519967,
-    "duration" : 38
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fe99a83f99feac07",
-  "name" : "根据学号获取学生信息",
-  "time" : {
-    "start" : 1614328519836,
-    "stop" : 1614328519880,
-    "duration" : 44
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2c28a0917d86a519",
+  "uid" : "fbd88c41e263f07f",
   "name" : "登陆参数错误-失败",
   "time" : {
-    "start" : 1614328519792,
-    "stop" : 1614328519829,
-    "duration" : 37
+    "start" : 1618816120862,
+    "stop" : 1618816120895,
+    "duration" : 33
   },
-  "status" : "passed",
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbd8d0244616efa",
+  "name" : "获取access_token",
+  "time" : {
+    "start" : 1618816098144,
+    "stop" : 1618816120265,
+    "duration" : 22121
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bd7c8594be5320e",
+  "name" : "获取试卷",
+  "time" : {
+    "start" : 1618816250284,
+    "stop" : 1618816250285,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "987c5ebe3f11c0d1",
+  "name" : "请求登陆",
+  "time" : {
+    "start" : 1618816142352,
+    "stop" : 1618816163355,
+    "duration" : 21003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6a11fe692d479602",
+  "name" : "根据学年学期获取学生信息",
+  "time" : {
+    "start" : 1618816120958,
+    "stop" : 1618816120990,
+    "duration" : 32
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6466c6cb0e2f35b",
+  "name" : "根据学号获取学生信息",
+  "time" : {
+    "start" : 1618816120910,
+    "stop" : 1618816120941,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce98c0ec6b731949",
+  "name" : "登陆首页",
+  "time" : {
+    "start" : 1618816121134,
+    "stop" : 1618816142179,
+    "duration" : 21045
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "85618f8c06d4a8d6",
+  "name" : "获取所有学生或者获取当前学年学期的所有学生",
+  "time" : {
+    "start" : 1618816121007,
+    "stop" : 1618816121039,
+    "duration" : 32
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "77fd61aff3c9b308",
+  "name" : "设置Token",
+  "time" : {
+    "start" : 1618816163514,
+    "stop" : 1618816184514,
+    "duration" : 21000
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b69792a8330096f",
+  "name" : "根据班级获取学生信息",
+  "time" : {
+    "start" : 1618816121057,
+    "stop" : 1618816121092,
+    "duration" : 35
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbdf8acee6df47bd",
+  "name" : "任务列表",
+  "time" : {
+    "start" : 1618816207943,
+    "stop" : 1618816228946,
+    "duration" : 21003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ed24c191b16d5b1",
+  "name" : "登陆参数正常-成功",
+  "time" : {
+    "start" : 1618816120711,
+    "stop" : 1618816120777,
+    "duration" : 66
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f012aafd52d14e34",
+  "name" : "阅卷界面",
+  "time" : {
+    "start" : 1618816229075,
+    "stop" : 1618816250123,
+    "duration" : 21048
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

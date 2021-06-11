@@ -2,6 +2,7 @@
 import requests
 import jsonpath
 import re
+import allure
 from json import dumps
 from Basic.logger import Logger
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
@@ -148,17 +149,25 @@ class Global:
         self.EXPR = r'\$\{(.*?)\}'
         self.FUNC_EXPR = r'__.*?\(.*?\)'
 
-    def save_data(self, source, key, jexpr):
+    def save_data(self, source, key, jsz):
         """
         提取参数并保存至全局变量池
         :param source: 目标字符串
         :param key: 全局变量池的key
-        :param jexpr: jsonpath表达式
+        :param jsz: 判断Json表达式还是正则表达式
         :return:
         """
-        value = jsonpath.jsonpath(source, jexpr)
+        if jsz.startswith("$."):
+            value = jsonpath.jsonpath(source, jsz)[0]
+        else:
+            if len(re.findall(jsz, source.text)) == 1:
+                value = re.findall(jsz, source.text)[0]
+            else:
+                value = []
+                for i in range(len(re.findall(jsz, source.text))):
+                    value.append(re.findall(jsz, source.text)[i])
         if value:
-            self.saves[key] = value[0]
+            self.saves[key] = value
             logger.info("保存 {}=>{} 到全局变量池".format(key, value))
         else:
             logger.error("保存失败，参数为空")
@@ -166,7 +175,6 @@ class Global:
     def build_param(self, _string):
         """
         识别${key}并替换成全局变量池的value,处理__func()函数助手
-        :param _string:
         :param _string : 待替换的字符串
         :return:
         """
@@ -174,7 +182,12 @@ class Global:
         # 遍历所有取值并做替换
         keys = re.findall(self.EXPR, _string)
         for key in keys:
-            value = self.saves.get(key)
+            if type(self.saves.get(key)) == list:
+                num = int(_string.split('[')[1].split(']')[0])
+                value = self.saves.get(key)[num]
+                _string = _string.replace('[%s]' % num, '')
+            else:
+                value = self.saves.get(key)
             _string = _string.replace('${' + key + '}', str(value))
 
         # 遍历所有函数助手并执行，结束后替换
@@ -230,3 +243,16 @@ class Global:
             value = redis_connect.get(key)
             self.saves[key] = value
             logger.info("保存 {}=>{} 到全局变量池".format(key, value))
+
+
+def allure_(api_data):
+    """
+    :param api_data: apidata
+    :return:
+    """
+    allure.dynamic.suite(api_data['descrption']['descrption'])
+    allure.dynamic.sub_suite(api_data['descrption']['sub_suite'])
+    allure.dynamic.feature(api_data['descrption']['feature'])
+    allure.dynamic.story(api_data['descrption']['story'])
+    allure.dynamic.title(api_data['descrption']['descrption'])
+    allure.dynamic.issue(api_data['url'])

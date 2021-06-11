@@ -7,7 +7,7 @@ import os
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 定义测试用例的路径
-TESTCASE_PATH = os.path.join(BASE_PATH, 'Data')
+TESTCASE_PATH = os.path.join(BASE_PATH, 'testdata')
 
 # 定义测试报告的路径
 REPORT_PATH = os.path.join(BASE_PATH, '../yaml_report/')

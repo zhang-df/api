@@ -6,7 +6,7 @@ from core.settings import *
 class ReadExcel(object):
 
     def __init__(self):
-        self.path = os.path.join(BASE_PATH + "/conf/case.xlsx")
+        self.path = os.path.join(BASE_PATH + "/testdata/case.xlsx")
 
     def read_excel(self):
         """
@@ -34,8 +34,10 @@ class ReadExcel(object):
         for sheet_name in sheet_names:
             sheet = workbook.sheet_by_name(sheet_name)
             for i in range(sheet.nrows):
-                if sheet.row_values(i)[0] != '用例编号':  # 是否忽略首行
+                if sheet.row_values(i)[0] != '用例描述':  # 是否忽略首行
                     row_values = sheet.row_values(i)
+                    if 'descrption' in row_values[0]:
+                        row_values[0] = eval(row_values[0])
                     list_data.append(row_values)
         return list_data
 

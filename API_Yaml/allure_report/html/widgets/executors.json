@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:8090/",
-  "buildOrder" : 11,
-  "buildName" : "API_Yaml #11",
-  "buildUrl" : "http://localhost:8090/job/API_Yaml/11/",
+  "buildOrder" : 19,
+  "buildName" : "API_Yaml #19",
+  "buildUrl" : "http://localhost:8090/job/API_Yaml/19/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8090/job/API_Yaml/11/allure"
+  "reportUrl" : "http://localhost:8090/job/API_Yaml/19/allure"
 } ]
