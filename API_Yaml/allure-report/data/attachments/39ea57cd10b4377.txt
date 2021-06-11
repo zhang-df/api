@@ -1,0 +1,14 @@
+2021-02-26 16:04:30,404 - D:\PyCharm\Project\API_\API_Yaml\testcase\test_case.py[line:40] - INFO: 用例描述====>登陆参数错误-失败
+2021-02-26 16:04:30,438 - D:\PyCharm\Project\API_\API_Yaml\Basic\testBase.py[line:120] - INFO: 请求方式====>GET
+2021-02-26 16:04:30,438 - D:\PyCharm\Project\API_\API_Yaml\Basic\testBase.py[line:121] - INFO: 请求地址====>http://api.21szxy.com/api/user/login?
+2021-02-26 16:04:30,438 - D:\PyCharm\Project\API_\API_Yaml\Basic\testBase.py[line:124] - INFO: 请求参数====>{
+    "access_token": "Bj/7Asbw3x5dCpvTFTo9GaH1mOKKNOm2gnJFTz8Idrj621sbAibSj/DE42k8fLfC",
+    "account": 110256880,
+    "password": "a123456",
+    "baseid": 0,
+    "schoolid": 461361
+}
+2021-02-26 16:04:30,438 - D:\PyCharm\Project\API_\API_Yaml\Basic\testBase.py[line:131] - INFO: 响应状态码为====>200
+2021-02-26 16:04:30,438 - D:\PyCharm\Project\API_\API_Yaml\Basic\testBase.py[line:132] - INFO: 接口响应头为====>{'Server': 'nginx', 'Date': 'Fri, 26 Feb 2021 08:04:24 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Application-Context': 'ms-bd:8084', 'Cache-Control': 'no-store', 'Content-Language': 'zh-CN'}
+2021-02-26 16:04:30,439 - D:\PyCharm\Project\API_\API_Yaml\Basic\testBase.py[line:133] - INFO: 接口响应内容====>{"message":"账号或密码错误","code":-1}
+2021-02-26 16:04:30,439 - D:\PyCharm\Project\API_\API_Yaml\Basic\testBase.py[line:86] - INFO: 断言： 预期值：'账号或密码错误' 实际值：'账号或密码错误', 断言成功!

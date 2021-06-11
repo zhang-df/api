@@ -1,0 +1,109 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "数字化校园",
+    "children" : [ {
+      "name" : "登陆及学生模块",
+      "children" : [ {
+        "name" : "获取access_token",
+        "uid" : "15d31d4af30a97b3",
+        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614328519614,
+          "stop" : 1614328519698,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登陆参数正常-成功",
+        "uid" : "63099c38221536b1",
+        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614328519704,
+          "stop" : 1614328519755,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登陆参数为空-失败",
+        "uid" : "5e110ef31a4f8268",
+        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614328519763,
+          "stop" : 1614328519785,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登陆参数错误-失败",
+        "uid" : "2c28a0917d86a519",
+        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614328519792,
+          "stop" : 1614328519829,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "根据学号获取学生信息",
+        "uid" : "fe99a83f99feac07",
+        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614328519836,
+          "stop" : 1614328519880,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "根据学年学期获取学生信息",
+        "uid" : "c1d3e8f6c0b19797",
+        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614328519898,
+          "stop" : 1614328519924,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "根据学校id和学号获取班级",
+        "uid" : "37223d20ee83665e",
+        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614328519929,
+          "stop" : 1614328519967,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "根据班级获取学生信息",
+        "uid" : "9a7889c73ae28fdd",
+        "parentUid" : "cda77db05ce803291ab29993b7ce657c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614328519971,
+          "stop" : 1614328520037,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cda77db05ce803291ab29993b7ce657c"
+    } ],
+    "uid" : "a8a0ec61eae0a2e9c636b06433735c69"
+  } ]
+}

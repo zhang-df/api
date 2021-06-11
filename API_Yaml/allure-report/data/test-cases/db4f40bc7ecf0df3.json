@@ -1,0 +1,131 @@
+{
+  "uid" : "db4f40bc7ecf0df3",
+  "name" : "登陆参数错误-失败",
+  "fullName" : "testcase.test_case.TestClass#test_two",
+  "historyId" : "1cb978bc645088bfec9bf0d7b78651bf",
+  "time" : {
+    "start" : 1614326670404,
+    "stop" : 1614326670440,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestClass",
+    "time" : {
+      "start" : 1614326670217,
+      "stop" : 1614326670217,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1614326670049,
+      "stop" : 1614326670217,
+      "duration" : 168
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b33552ded70e606",
+      "name" : "log",
+      "source" : "1b33552ded70e606.txt",
+      "type" : "text/plain",
+      "size" : 1371
+    }, {
+      "uid" : "39ea57cd10b4377",
+      "name" : "stderr",
+      "source" : "39ea57cd10b4377.txt",
+      "type" : "text/plain",
+      "size" : 1567
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestClass::0",
+    "time" : {
+      "start" : 1614326670646,
+      "stop" : 1614326670646,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "数字化校园"
+  }, {
+    "name" : "story",
+    "value" : "登陆及学生模块"
+  }, {
+    "name" : "feature",
+    "value" : "数字化校园"
+  }, {
+    "name" : "subSuite",
+    "value" : "登陆及学生模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "pc20200512"
+  }, {
+    "name" : "thread",
+    "value" : "8760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "http://api.21szxy.com/api/user/login?",
+    "url" : "http://api.21szxy.com/api/user/login?",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db4f40bc7ecf0df3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,247 @@
+{
+  "uid" : "2c28a0917d86a519",
+  "name" : "登陆参数错误-失败",
+  "fullName" : "testcase.test_case.TestClass#test_two",
+  "historyId" : "1cb978bc645088bfec9bf0d7b78651bf",
+  "time" : {
+    "start" : 1614328519792,
+    "stop" : 1614328519829,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1614328519454,
+      "stop" : 1614328519613,
+      "duration" : 159
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestClass",
+    "time" : {
+      "start" : 1614328519613,
+      "stop" : 1614328519613,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "904ef66acdb2e493",
+      "name" : "log",
+      "source" : "904ef66acdb2e493.txt",
+      "type" : "text/plain",
+      "size" : 1371
+    }, {
+      "uid" : "e5fff3bc952bc862",
+      "name" : "stderr",
+      "source" : "e5fff3bc952bc862.txt",
+      "type" : "text/plain",
+      "size" : 1567
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestClass::0",
+    "time" : {
+      "start" : 1614328520039,
+      "stop" : 1614328520040,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "数字化校园"
+  }, {
+    "name" : "story",
+    "value" : "登陆及学生模块"
+  }, {
+    "name" : "subSuite",
+    "value" : "登陆及学生模块"
+  }, {
+    "name" : "feature",
+    "value" : "数字化校园"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "pc20200512"
+  }, {
+    "name" : "thread",
+    "value" : "3340-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "http://api.21szxy.com/api/user/login?",
+    "url" : "http://api.21szxy.com/api/user/login?",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "12173ce96b50f2bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614328454438,
+        "stop" : 1614328454474,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "9702b5c61c7c923a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614328339798,
+        "stop" : 1614328339847,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "96e95c1ae94b6def",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614326670404,
+        "stop" : 1614326670440,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "61c5dc37eb6556db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614326549492,
+        "stop" : 1614326549535,
+        "duration" : 43
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "457751adf814a2d8",
+        "reportUrl" : "http://localhost:8090/job/API_Yaml/10/allure/#testresult/457751adf814a2d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614328339798,
+          "stop" : 1614328339847,
+          "duration" : 49
+        }
+      }, {
+        "uid" : "c803198eea261d1f",
+        "reportUrl" : "http://localhost:8090/job/l%20am%20your%20dad/9/allure/#testresult/c803198eea261d1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614326670404,
+          "stop" : 1614326670440,
+          "duration" : 36
+        }
+      }, {
+        "uid" : "972604108e6e47c0",
+        "reportUrl" : "http://localhost:8090/job/l%20am%20your%20dad/8/allure/#testresult/972604108e6e47c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614326549492,
+          "stop" : 1614326549535,
+          "duration" : 43
+        }
+      }, {
+        "uid" : "c5968112c24f165a",
+        "reportUrl" : "http://localhost:8090/job/l%20am%20your%20dad/7/allure/#testresult/c5968112c24f165a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241974638,
+          "stop" : 1614241974673,
+          "duration" : 35
+        }
+      }, {
+        "uid" : "a81efb29efd956ae",
+        "reportUrl" : "http://localhost:8090/job/l%20am%20your%20dad/6/allure/#testresult/a81efb29efd956ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241974638,
+          "stop" : 1614241974673,
+          "duration" : 35
+        }
+      }, {
+        "uid" : "7d4504cec8ff5873",
+        "reportUrl" : "http://localhost:8090/job/l%20am%20your%20dad/4/allure/#testresult/7d4504cec8ff5873",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241974638,
+          "stop" : 1614241974673,
+          "duration" : 35
+        }
+      }, {
+        "uid" : "63a849a05153f737",
+        "reportUrl" : "http://localhost:8090/job/l%20am%20your%20dad/3/allure/#testresult/63a849a05153f737",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241724765,
+          "stop" : 1614241724823,
+          "duration" : 58
+        }
+      }, {
+        "uid" : "29097ad82e20f672",
+        "reportUrl" : "http://localhost:8090/job/l%20am%20your%20dad/2/allure/#testresult/29097ad82e20f672",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614150286456,
+          "stop" : 1614150286495,
+          "duration" : 39
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2c28a0917d86a519.json",
+  "parameterValues" : [ ]
+}

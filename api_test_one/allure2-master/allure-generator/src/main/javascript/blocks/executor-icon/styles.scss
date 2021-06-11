@@ -1,0 +1,31 @@
+.executor-icon {
+  width: 32px;
+  height: 32px;
+  background: url(default-icon.png) center no-repeat;
+  background-size: contain;
+  display: inline-block;
+
+  &__jenkins {
+    background-image: url(jenkins.svg)
+  }
+
+  &__bamboo {
+    background-image: url(bamboo.svg)
+  }
+
+  &__teamcity {
+    background-image: url(teamcity.svg)
+  }
+
+  &__gitlab {
+    background-image: url(gitlab.svg)
+  }
+
+  &__github {
+    background-image: url(github.svg)
+  }
+}
+
+.executor {
+  line-height: 32px;
+}

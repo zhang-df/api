@@ -1,0 +1,130 @@
+{
+  "uid" : "4b2b0318f19d2f0",
+  "name" : "根据学校id和学号获取班级",
+  "fullName" : "testcase.test_case.TestClass#test_two",
+  "historyId" : "f5db6ca122810111cb455a754288ef4e",
+  "time" : {
+    "start" : 1614326549650,
+    "stop" : 1614326549690,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestClass",
+    "time" : {
+      "start" : 1614326549265,
+      "stop" : 1614326549265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1614326549107,
+      "stop" : 1614326549265,
+      "duration" : 158
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec9b75f2a0f5ff51",
+      "name" : "log",
+      "source" : "ec9b75f2a0f5ff51.txt",
+      "type" : "text/plain",
+      "size" : 2741
+    }, {
+      "uid" : "4fe4cc5642afc20f",
+      "name" : "stderr",
+      "source" : "4fe4cc5642afc20f.txt",
+      "type" : "text/plain",
+      "size" : 2937
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestClass::0",
+    "time" : {
+      "start" : 1614326549773,
+      "stop" : 1614326549773,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登陆及学生模块"
+  }, {
+    "name" : "suite",
+    "value" : "数字化校园"
+  }, {
+    "name" : "feature",
+    "value" : "数字化校园"
+  }, {
+    "name" : "subSuite",
+    "value" : "登陆及学生模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "pc20200512"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "http://api.21szxy.com/api/school/getClassListByStudentNo?",
+    "url" : "http://api.21szxy.com/api/school/getClassListByStudentNo?",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b2b0318f19d2f0.json",
+  "parameterValues" : [ ]
+}

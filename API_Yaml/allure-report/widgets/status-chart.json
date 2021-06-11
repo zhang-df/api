@@ -1,0 +1,81 @@
+[ {
+  "uid" : "c19cd01d23f9d9d6",
+  "name" : "登陆参数错误-失败",
+  "time" : {
+    "start" : 1614328519792,
+    "stop" : 1614328519829,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc15a4f2dc635680",
+  "name" : "根据学年学期获取学生信息",
+  "time" : {
+    "start" : 1614328519898,
+    "stop" : 1614328519924,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b9bbf4d0acc0eb1",
+  "name" : "登陆参数正常-成功",
+  "time" : {
+    "start" : 1614328519704,
+    "stop" : 1614328519755,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbd18cd6242400ba",
+  "name" : "根据班级获取学生信息",
+  "time" : {
+    "start" : 1614328519971,
+    "stop" : 1614328520037,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c09ee53ac5b82b4",
+  "name" : "登陆参数为空-失败",
+  "time" : {
+    "start" : 1614328519763,
+    "stop" : 1614328519785,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f66fd89c2cd9881",
+  "name" : "根据学号获取学生信息",
+  "time" : {
+    "start" : 1614328519836,
+    "stop" : 1614328519880,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a1e726ff9e86419",
+  "name" : "根据学校id和学号获取班级",
+  "time" : {
+    "start" : 1614328519929,
+    "stop" : 1614328519967,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "193b7091dad9c0f7",
+  "name" : "获取access_token",
+  "time" : {
+    "start" : 1614328519614,
+    "stop" : 1614328519698,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

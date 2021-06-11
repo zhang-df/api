@@ -1,0 +1,14 @@
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:test_case.py:40 用例描述====>登陆参数正常-成功
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:120 请求方式====>GET
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:121 请求地址====>http://api.21szxy.com/api/user/login?
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:124 请求参数====>{
+    "access_token": "Bj/7Asbw3x5dCpvTFTo9GWsry825V1fuXgeG7BGa2/CfRahfJBdSMHYWyGZg15lo",
+    "account": "11025688",
+    "password": "a123456",
+    "baseid": 0,
+    "schoolid": 461361
+}
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:131 响应状态码为====>200
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:132 接口响应头为====>{'Server': 'nginx', 'Date': 'Fri, 26 Feb 2021 08:34:07 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Application-Context': 'ms-bd:8084', 'Cache-Control': 'no-store', 'Set-Cookie': 'SESSION=e3322dfa-8e85-47c2-b70a-2f156da9f98c; Path=/; HttpOnly', 'Content-Language': 'zh-CN'}
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:133 接口响应内容====>{"data":{"isForcedUpw":"false","isadmin":"1","identity":"2","openid":"11025688","schoolid":"461361","mobile":"13632884750","photo":"","baseid":"0","userName":"刘老师830","realname":"刘老师830"},"message":"登陆成功","code":0}
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:86 断言： 预期值：'登陆成功' 实际值：'登陆成功', 断言成功!

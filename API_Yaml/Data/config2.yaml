@@ -1,0 +1,64 @@
+search_test_001:
+    api_data: {
+        'descrption': '根据学号获取学生信息',
+        'url': 'http://api.21szxy.com/api/school/queryStudentByStuNo?',
+        'method': 'GET',
+        'headers': '',
+        'cookies': '',
+        'params': "{'access_token': '${access_token}','schoolId': 461361,'schoolTerm': 1,'schoolYear': 2020,'studentNos': 210118001}",
+        'body': '',
+        'saves': '',
+        'verify': '$.message=请求接口成功!',
+        'dbtype': '',
+        'db': '',
+        'setup_sql': '',
+        'teardown_sql': '',
+        'file': ''}
+search_test_002:
+    api_data: {
+        'descrption': '根据学年学期获取学生信息',
+        'url': 'http://api.21szxy.com/api/school/getAllSchoolClassStudent?',
+        'method': 'GET',
+        'headers': '',
+        'cookies': '',
+        'params': "{'access_token': '${access_token}', 'choolTerm': 1,'schoolYear': 2020,'schoolId': 461361}",
+        'body': '',
+        'saves': '',
+        'verify': '$.message=请求接口成功!',
+        'dbtype': '',
+        'db': '',
+        'setup_sql': '',
+        'teardown_sql': '',
+        'file': ''}
+search_test_003:
+    api_data: {
+        'descrption': '根据学校id和学号获取班级',
+        'url': 'http://api.21szxy.com/api/school/getClassListByStudentNo?',
+        'method': 'GET',
+        'headers': '',
+        'cookies': '',
+        'params': "{'access_token': '${access_token}', 'studentNo': 210118001,'schoolId': 461361}",
+        'body': '',
+        'saves': '',
+        'verify': '$.message=请求接口成功!',
+        'dbtype': '',
+        'db': '',
+        'setup_sql': '',
+        'teardown_sql': '',
+        'file': ''}
+search_test_004:
+    api_data: {
+        'descrption': '根据班级获取学生信息',
+        'url': 'http://api.21szxy.com/api/school/queryStudentByClassId?',
+        'method': 'GET',
+        'headers': '',
+        'cookies': '',
+        'params': "{'access_token': '${access_token}','classIds': '81ab704b2e7544f4940b53f86727f5e2','schoolId': 461361}",
+        'body': '',
+        'saves': '',
+        'verify': '$.message=请求接口成功!',
+        'dbtype': '',
+        'db': '',
+        'setup_sql': '',
+        'teardown_sql': '',
+        'file': ''}

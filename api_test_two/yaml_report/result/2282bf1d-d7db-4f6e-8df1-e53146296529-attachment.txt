@@ -1,0 +1,12 @@
+2021-01-22 15:53:38,106 - D:\PyCharm\projects\API_test\api_two\testcase\test_case.py[line:36] - INFO: 用例描述====>根据学校id和学号获取班级
+2021-01-22 15:53:38,150 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:120] - INFO: 请求方式====>GET
+2021-01-22 15:53:38,150 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:121] - INFO: 请求地址====>http://api.21szxy.com/api/school/getClassListByStudentNo?
+2021-01-22 15:53:38,150 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:124] - INFO: 请求参数====>{
+    "access_token": "Bj/7Asbw3x5dCpvTFTo9GWLduBL6KyimS2q7vY2I+FbYJgre1dDZ9C/i5h6ZvEZW",
+    "studentNo": 210118001,
+    "schoolId": 461361
+}
+2021-01-22 15:53:38,151 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:131] - INFO: 响应状态码为====>200
+2021-01-22 15:53:38,151 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:132] - INFO: 接口响应头为====>{'Server': 'nginx', 'Date': 'Fri, 22 Jan 2021 07:53:35 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Application-Context': 'ms-bd:8084', 'Cache-Control': 'no-store', 'Content-Language': 'zh-CN'}
+2021-01-22 15:53:38,151 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:133] - INFO: 接口响应内容====>{"code":0,"message":"请求接口成功!","classList":[{"validFlag":null,"makeTime":null,"makeUser":null,"modifyTime":null,"modifyUser":null,"classId":"7502dfe55da642c8b7ad4834d6b7e5cb","schoolId":null,"period":null,"grade":null,"className":"一年级(1)班","classNo":"101","classType":null,"schoolYear":2019,"term":2,"periodName":null,"classTypeName":null,"syscodeGrade":1,"gradeName":null},{"validFlag":null,"makeTime":null,"makeUser":null,"modifyTime":null,"modifyUser":null,"classId":"eaba6ca416694e87ada655ea3a20554f","schoolId":null,"period":null,"grade":null,"className":"一年级(1)班","classNo":"101","classType":null,"schoolYear":2019,"term":1,"periodName":null,"classTypeName":null,"syscodeGrade":1,"gradeName":null},{"validFlag":null,"makeTime":null,"makeUser":null,"modifyTime":null,"modifyUser":null,"classId":"81ab704b2e7544f4940b53f86727f5e2","schoolId":null,"period":null,"grade":null,"className":"一年级(1)班","classNo":"101","classType":null,"schoolYear":2020,"term":1,"periodName":null,"classTypeName":null,"syscodeGrade":1,"gradeName":null}],"timestamp":1611302015}
+2021-01-22 15:53:38,152 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:86] - INFO: 断言： 预期值：'请求接口成功!' 实际值：'请求接口成功!', 断言成功!

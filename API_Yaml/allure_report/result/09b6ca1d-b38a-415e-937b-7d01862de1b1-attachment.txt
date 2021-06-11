@@ -1,0 +1,13 @@
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:test_case.py:40 用例描述====>根据学年学期获取学生信息
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:120 请求方式====>GET
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:121 请求地址====>http://api.21szxy.com/api/school/getAllSchoolClassStudent?
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:124 请求参数====>{
+    "access_token": "Bj/7Asbw3x5dCpvTFTo9GWsry825V1fuXgeG7BGa2/CfRahfJBdSMHYWyGZg15lo",
+    "choolTerm": 1,
+    "schoolYear": 2020,
+    "schoolId": 461361
+}
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:131 响应状态码为====>200
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:132 接口响应头为====>{'Server': 'nginx', 'Date': 'Fri, 26 Feb 2021 08:34:08 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Application-Context': 'ms-bd:8084', 'Cache-Control': 'no-store', 'Content-Language': 'zh-CN'}
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:133 接口响应内容====>{"studentList":[],"code":0,"message":"请求接口成功!","timestamp":1614328448}
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:86 断言： 预期值：'请求接口成功!' 实际值：'请求接口成功!', 断言成功!

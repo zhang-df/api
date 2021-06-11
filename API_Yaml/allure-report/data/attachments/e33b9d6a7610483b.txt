@@ -1,0 +1,10 @@
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:test_case.py:40 用例描述====>获取access_token
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:120 请求方式====>GET
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:121 请求地址====>http://api.21szxy.com/api/auth/access_token?app_id=client_id&app_secret=client_secret
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:124 请求参数====>""
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:131 响应状态码为====>200
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:132 接口响应头为====>{'Server': 'nginx', 'Date': 'Fri, 26 Feb 2021 08:35:13 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Application-Context': 'ms-bd:8084', 'Cache-Control': 'no-store', 'Content-Language': 'zh-CN'}
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:133 接口响应内容====>{"data":{"access_token":"Bj/7Asbw3x5dCpvTFTo9GVm1nMSGjWstTFPCgQSqXJyrP1zct6K7dL0iG7I2kGBe","expires_in":86400},"message":"获取成功!","code":0}
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:162 保存 access_token=>['Bj/7Asbw3x5dCpvTFTo9GVm1nMSGjWstTFPCgQSqXJyrP1zct6K7dL0iG7I2kGBe'] 到全局变量池
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:86 断言： 预期值：'获取成功!' 实际值：'获取成功!', 断言成功!
+INFO     D:\PyCharm\Project\API_\API_Yaml/logs/all.log:testBase.py:86 断言： 预期值：'0' 实际值：'0', 断言成功!

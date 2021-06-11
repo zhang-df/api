@@ -1,0 +1,5 @@
+id: packages
+name: Packages aggregator
+description: The aggregator adds packages tab to the yaml_report
+extensions:
+  - io.qameta.allure.packages.PackagesPlugin

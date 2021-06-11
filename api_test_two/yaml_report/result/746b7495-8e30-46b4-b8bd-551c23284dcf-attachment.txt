@@ -1,0 +1,14 @@
+2021-01-22 15:55:26,802 - D:\PyCharm\projects\API_test\api_two\testcase\test_case.py[line:36] - INFO: 用例描述====>参数正常-成功
+2021-01-22 15:55:26,850 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:120] - INFO: 请求方式====>GET
+2021-01-22 15:55:26,851 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:121] - INFO: 请求地址====>http://api.21szxy.com/api/user/login?
+2021-01-22 15:55:26,851 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:124] - INFO: 请求参数====>{
+    "access_token": "Bj/7Asbw3x5dCpvTFTo9GbEzKvxRmEcGVHluNNiGLSPdSU4xgVlfn0JIciHRZHIb",
+    "account": "11025688",
+    "password": "a123456",
+    "baseid": 0,
+    "schoolid": 461361
+}
+2021-01-22 15:55:26,851 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:131] - INFO: 响应状态码为====>200
+2021-01-22 15:55:26,852 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:132] - INFO: 接口响应头为====>{'Server': 'nginx', 'Date': 'Fri, 22 Jan 2021 07:55:24 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Application-Context': 'ms-bd:8084', 'Cache-Control': 'no-store', 'Set-Cookie': 'SESSION=4b925c62-a214-4fd7-879d-2bb10cd40816; Path=/; HttpOnly', 'Content-Language': 'zh-CN'}
+2021-01-22 15:55:26,852 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:133] - INFO: 接口响应内容====>{"data":{"isForcedUpw":"false","isadmin":"1","identity":"2","openid":"11025688","schoolid":"461361","mobile":"13632884750","photo":"","baseid":"0","userName":"刘老师830","realname":"刘老师830"},"message":"登陆成功","code":0}
+2021-01-22 15:55:26,852 - D:\PyCharm\projects\API_yaml\Basic\testBase.py[line:86] - INFO: 断言： 预期值：'登陆成功' 实际值：'登陆成功', 断言成功!
